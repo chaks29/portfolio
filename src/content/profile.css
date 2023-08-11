@@ -1,32 +1,43 @@
-.myself{
-    text-align: center;
-    margin-top: 50px;
-    background-color: rgb(255, 255, 255);
-    font-size: large;
-    font-family: 'Times New Roman', Times, serif;
-   
-   
-}
+.bg{top: 200px;
+    left:0px;
+    position: absolute;
+    width: 1519px;
+    height: 1000px;
     
-
-.dis_year{
-    margin-left: 50px;
-    background-color: rgb(255, 255, 255);
-}
-
-.image{
-    width: 150px;
-    border: 2px solid black;
-    border-radius: 50%;
-    margin-top: 0%;
-    
-}
-
-.hero{
-
-
-    justify-content: center;
-
-
-   
-}
+    z-index: -1;
+  }
+  
+.intro{
+    position: absolute;
+    top: 450px;
+    left: 500px;
+    width: 611px;
+    height: 107px;
+    flex-shrink: 0;
+    color: #000;
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    font-family: League Spartan;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    z-index: 1;
+  }
+  
+  .intro2{
+    position: absolute;
+    top: 650px;
+    left: 800px;
+    width: 636px;
+    height: 449px;
+    flex-shrink: 0;
+    color: #000;
+    text-align: justify;
+    font-family: League Spartan;
+    font-size: 36px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 144%;
+  }
+  
+  

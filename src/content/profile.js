@@ -1,33 +1,14 @@
 import './profile.css';
-import React, {useState} from 'react';
+import image from './MacBook Pro 16_ - 1.png';
 
-
-
-const Profile = () => {
-    const [show , setshow] = useState(false)
-    function buttons1 () {
-    setshow(!show)
-  }
+function Profile(){
   return(
-  <div className='myself'>
-    <div className='hero'>
-    <h1><b>Profile</b></h1>
-    <h2><b><i>Aswath C</i></b></h2>
-    <h3><b><i>Artificial Intelligence and Data Science</i></b></h3>
-    <h3><b><i><u>aswath.21ad@kct.ac.in</u></i></b></h3>
-    <div className='year'>
-            {
-                show && <div className='cur_year'>
-                    <p><b><i>I am studying third year</i></b></p>
-                </div>
-            }
-               <button type='button' onClick={buttons1} className='dis_year'><b><i>Year</i></b></button>
-            </div>
-  
-    </div>
-    
-    
-   
+    <div>  
+    <body>
+        <img class="bg" src={image} alt="web"/>
+        <p class="intro"> Hey there!! This Aswath Chakravarthi</p>
+        <p class="intro2">As an ambitious college student with a fervent passion for AI & ML, data science, cloud technologies, and UX/UI design. My comprehensive understanding of various AI & ML algorithms and frameworks, coupled with my proficiency in cloud computing principles, I have experience in developing innovative solutions and contributing as a team player.</p>
+    </body>
   </div>
   );
   }

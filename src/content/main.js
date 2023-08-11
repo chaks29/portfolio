@@ -9,9 +9,10 @@ const Layout = () => {
     <div className="main">
         
         <nav>
-          <Link to="/"><button className="hello"><b><i>Profile</i></b></button></Link>
+          <Link to="/"><button className="hello"><b><i>Home</i></b></button></Link>
+          <Link to="/profile"><button className="hello"><b><i>Profile</i></b></button></Link>
           <Link to="/resume"><button className="hello"><b><i>Resume</i></b></button></Link>
-          <Link to="/projects"><button className="hello"><b><i>Projects</i></b></button></Link>            
+          <Link to="/project"><button className="hello"><b><i>Project</i></b></button></Link>
           <Link to="/contact"><button className="hello"><b><i>Contact</i></b></button></Link>
         </nav>
   

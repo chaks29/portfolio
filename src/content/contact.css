@@ -1,7 +1,7 @@
 .well{
-    
+    left: 500px;
     background-color: rgb(255, 255, 255);
-    justify-content: center;
+    position: absolute;
     margin-top: 100px;
     font-size: large;
     font-family: 'Times New Roman', Times, serif;
