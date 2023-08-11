@@ -1,0 +1,32 @@
+.myself{
+    text-align: center;
+    margin-top: 50px;
+    background-color: rgb(255, 255, 255);
+    font-size: large;
+    font-family: 'Times New Roman', Times, serif;
+   
+   
+}
+    
+
+.dis_year{
+    margin-left: 50px;
+    background-color: rgb(255, 255, 255);
+}
+
+.image{
+    width: 150px;
+    border: 2px solid black;
+    border-radius: 50%;
+    margin-top: 0%;
+    
+}
+
+.hero{
+
+
+    justify-content: center;
+
+
+   
+}
